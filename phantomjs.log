@@ -1,0 +1,38 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2021-09-24T06:38:36.830Z] GhostDriver - Main - running on port 12594
+[INFO  - 2021-09-24T06:38:39.580Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":false}
+[INFO  - 2021-09-24T06:38:39.580Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.customHeaders:  - {}
+[INFO  - 2021-09-24T06:38:39.580Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-09-24T06:38:39.580Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0d86f050-1d02-11ec-a55f-93a726ff389c
+[ERROR - 2021-09-24T06:38:39.923Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2021-09-24T06:38:39.923Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.onError - stack:
+
+[ERROR - 2021-09-24T06:38:39.923Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2021-09-24T06:38:39.923Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.onError - stack:
+
+[ERROR - 2021-09-24T06:38:39.924Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'e.normalize')
+[ERROR - 2021-09-24T06:38:39.924Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.onError - stack:
+  (anonymous function) (http://127.0.0.1:8000/third_party/require.js:20)
+  (anonymous function) (http://127.0.0.1:8000/third_party/require.js:8)
+  (anonymous function) (http://127.0.0.1:8000/third_party/require.js:23)
+  x (http://127.0.0.1:8000/third_party/require.js:7)
+  (anonymous function) (http://127.0.0.1:8000/third_party/require.js:23)
+  (anonymous function) (http://127.0.0.1:8000/third_party/require.js:19)
+  (anonymous function) (http://127.0.0.1:8000/third_party/require.js:22)
+  (anonymous function) (http://127.0.0.1:8000/third_party/require.js:16)
+  D (http://127.0.0.1:8000/third_party/require.js:14)
+  (anonymous function) (http://127.0.0.1:8000/third_party/require.js:27)
+  (anonymous function) (http://127.0.0.1:8000/third_party/require.js:29)
+[ERROR - 2021-09-24T06:38:39.924Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2021-09-24T06:38:39.924Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.onError - stack:
+
+[ERROR - 2021-09-24T06:38:39.924Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2021-09-24T06:38:39.924Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.onError - stack:
+
+[ERROR - 2021-09-24T06:38:46.942Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.onError - msg: Error: Load timeout for modules: LF/loader!../LF2_19_unnormalized2
+http://requirejs.org/docs/errors.html#timeout
+[ERROR - 2021-09-24T06:38:46.942Z] Session [0d86f050-1d02-11ec-a55f-93a726ff389c] - page.onError - stack:
+  (anonymous function) (http://127.0.0.1:8000/third_party/require.js:32)
+  C (http://127.0.0.1:8000/third_party/require.js:12)
+  B (http://127.0.0.1:8000/third_party/require.js:13)
+  (anonymous function) (http://127.0.0.1:8000/third_party/require.js:13)
